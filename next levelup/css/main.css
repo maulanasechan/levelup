@@ -1,0 +1,437 @@
+/* navbar */
+
+.navbar-brand {
+  font-size: 32px;
+  font-weight: 200;
+  font-family: "Viga";
+}
+
+.navbar {
+  border-bottom-right-radius: 47px;
+  border-bottom-left-radius: 47px;
+  background-color: white;
+  box-shadow: 0 5px 6px #aaaaaa;
+}
+
+.navbar .form-control {
+  border-radius: 20px;
+  border: none;
+  background-color: #5ba27f;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+  width: 346px;
+  font-family: arial, "Font Awesome 5 Free";
+}
+
+.navbar ::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.navbar :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.navbar ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav-link {
+  color: #5ba27f;
+}
+
+.nav-link:hover {
+  color: #aaaaaa;
+}
+
+.navbar-nav .active:hover {
+  color: #5ba27f;
+}
+
+.nav-link img:hover {
+  box-shadow: 0 0 0 2px white, 0 0 0 4px #5ba27f;
+}
+
+.nav-link .act {
+  box-shadow: 0 0 0 2px white, 0 0 0 4px #5ba27f;
+}
+
+.form-control:hover {
+  background-color: #aaaaaa;
+}
+/* end of navbar */
+
+/* start of search button */
+
+.header-search {
+  margin-top: 50px;
+}
+
+.header-search .header-button {
+  margin-right: 25px;
+  width: 160px;
+  height: 35px;
+  background-color: white;
+  border: 3px solid #5ba27f;
+  border-radius: 24px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.header-search .header-button:hover {
+  background-color: #5ba27f;
+  border: none;
+  color: white;
+}
+
+.header-search .active {
+  background-color: #5ba27f;
+  border: none;
+  color: white;
+}
+
+.header-icon {
+  margin-top: 50px;
+}
+
+.header-icon .sell-icon {
+  text-align: center;
+  margin-right: 35px;
+}
+
+.header-icon .sell-icon img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.header-icon .sell-icon:hover img {
+  box-shadow: 0 0 0 2px white, 0 0 0 4px #5ba27f;
+}
+
+.header-icon .sell-icon:hover {
+  color: #5ba27f;
+}
+
+.header-icon .sell-icon p {
+  margin-top: 12px;
+  font-size: 17px;
+  font-weight: 550;
+}
+
+.header-icon .active img {
+  box-shadow: 0 0 0 2px white, 0 0 0 4px #5ba27f;
+}
+
+.header-icon .active {
+  color: #5ba27f;
+}
+
+.header-icon .left {
+  margin-right: 35px;
+  font-size: 30px;
+  color: #828282;
+}
+
+.header-icon .right {
+  font-size: 30px;
+  color: #828282;
+}
+
+.header-icon .right:hover {
+  color: #ffaa00;
+}
+
+.header-icon .left:hover {
+  color: #ffaa00;
+}
+
+.vertical-icon {
+  display: flex;
+  align-items: center;
+}
+/* end of search button */
+
+/* start post */
+
+.post .posting {
+  margin-top: 70px;
+  -moz-box-shadow: inset 0 0 7px #828282;
+  -webkit-box-shadow: inset 0 0 7px #828282;
+  box-shadow: inset 0 0 7px #828282;
+  border-radius: 50px;
+  width: 540px;
+  height: 1140px;
+  margin-bottom: 2%;
+}
+
+.post .posting .profil {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.post .left {
+  margin-right: 50px;
+}
+
+.post .posting .header {
+  margin-top: 5%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.post .posting .header .profile {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.post .posting .header .profile-name {
+  margin-bottom: 6%;
+}
+
+.post .posting .header .profile-name a {
+  font-weight: bold;
+  color: black;
+}
+
+.post .posting .header .star .icon {
+  color: #ffaa00;
+}
+
+.post .posting .header .game-name {
+  font-style: italic;
+  margin-bottom: 2%;
+}
+
+.post .posting .header .setting {
+  color: #5ba27f;
+  font-size: 35px;
+}
+
+.post .posting .header .game {
+  text-align: right;
+}
+
+.post .posting .post-img {
+  width: 99%;
+  margin-top: 7%;
+  margin-bottom: 9%;
+}
+
+.vertical-center {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.post .posting .isi {
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.post .posting .isi h5 {
+  font-weight: bold;
+  color: #5ba27f;
+}
+
+.post .posting .isi .harga {
+  font-weight: 600;
+  color: black;
+  font-size: 21px;
+}
+
+.post .posting .isi .iconic {
+  text-align: right;
+}
+
+.post .posting .isi .iconic .star {
+  color: #ffaa00;
+  font-size: 13px;
+}
+
+.post .posting .isi .iconic .right {
+  margin-bottom: 5%;
+}
+
+.post .posting .isi .iconic .right .icon {
+  color: #5ba27f;
+  font-size: 30px;
+  padding-right: 7px;
+}
+
+.post .posting .isi .iconic .icon:hover {
+  color: #828282;
+}
+
+.post .posting .deskripsi {
+  margin-top: 3%;
+  width: 80%;
+  padding-left: 1%;
+  font-size: 14px;
+  margin-bottom: 2%;
+}
+
+.post .posting .deskripsi p {
+  margin-bottom: 2%;
+}
+
+.post .posting .deskripsi a {
+  color: #828282;
+  text-decoration: none;
+}
+
+.post .posting .deskripsi .ketentuan {
+  margin-bottom: 5%;
+  color: black;
+}
+
+.post .posting .commentary {
+  padding-left: 1%;
+  padding-right: 1%;
+  font-size: 13px;
+}
+
+.post .posting .commentary .star {
+  color: #ffaa00;
+  font-size: 10px;
+}
+
+.post .posting .commentary a {
+  font-weight: bold;
+  color: black;
+}
+
+/* end post */
+
+/* Notification */
+
+.notification .header-menu {
+  padding: 5% 5% 1% 5%;
+}
+
+.notification .list a {
+  margin-right: 20px;
+  color: black;
+}
+
+.notification .list a:hover {
+  text-decoration: none;
+  border-bottom: 3px solid #5ba27f;
+  padding-bottom: 3px;
+}
+
+.notification .list .active {
+  font-weight: 700;
+  border-bottom: 3px solid #5ba27f;
+  padding-bottom: 3px;
+}
+
+.notification .list .last {
+  margin-right: 0px;
+}
+
+.notification .menu {
+  padding-left: 9%;
+  padding-right: 9%;
+}
+
+.notification img {
+  height: 70px;
+  width: 70px;
+}
+
+.notification .profile {
+  border-radius: 50%;
+}
+
+.notification .date {
+  font-weight: bold;
+  opacity: 60%;
+}
+
+hr.overline {
+  border-top: 2px solid #5ba27f;
+}
+
+hr.underline {
+  border-bottom: 2px solid #828282;
+  width: 75%;
+}
+
+/* End Notification */
+
+/* Start Profile */
+
+.profile {
+  margin-top: 8%;
+}
+
+.profile .left {
+  margin-right: 5%;
+}
+
+.profile .description .star {
+  color: #ffaa00;
+}
+
+.profile .description h3 {
+  font-weight: 600;
+}
+
+.profile .img-profile {
+  width: 250px;
+  border-radius: 50%;
+}
+
+.profile .coin {
+  margin-top: 10%;
+}
+
+.profile .coin p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 5%;
+}
+
+.profile .coin .icon {
+  font-size: 20px;
+  color: #ffaa00;
+}
+
+/* End Profile */
+
+@media (min-width: 992px) {
+  /* start navbar */
+  .navbar-brand {
+    color: black !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  }
+
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 7px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    font-size: 23px;
+  }
+
+  .nav-link img {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+  }
+  /* end of navbar */
+}
